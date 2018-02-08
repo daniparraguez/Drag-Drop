@@ -1,0 +1,28 @@
+body{
+  font-family: 'Oleo Script', cursive;
+
+}
+.jumbotron,.draggable{
+  background-color: #00C4C1;
+  color:white;
+}
+.draggable{
+  overflow: hidden;
+}
+form{
+  padding-top: 2em;
+}
+input.form-control{
+  width: 50%;
+}
+.input-group{
+  margin-bottom: 2em;
+}
+.marco-foto{
+  border: 1em solid #00C4C1;
+  height: 17em;
+  object-fit:scale-down;
+}
+img{
+  object-fit: cover;
+}

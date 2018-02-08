@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/finlandia.jpg" />
+      <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+    <title>Instacollage</title>
+  </head>
+  <body>
+
+<section class="droppable container-fluid">
+  <h2 class="text-white">Instacollage</h2>
+    <div class="row">
+    <div class="col-sm-4 col-xs-4">
+          <div class="marco-foto" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+          </div>
+              <div class="col-sm-8 col-xs-8">
+        <div class="marco-foto" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+        </div>
+    </div>
+        <div class="row">
+          <div class="col-sm-12 col-xs-12">
+        <div class="marco-foto" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+        </div>
+      </div>
+</section>
+
+<section class="draggable container-fluid">
+    <div class="row">
+    <div class="col-sm-12 col-xs-12">
+              <img class="img-responsive" id="foto1" draggable="true" ondragstart="drag(event)" src="assets/img/Aurora-Boreal-destacada.jpg">
+    </div>
+    </div>
+
+  <div class="row">
+    <div class="col-sm-4 col-xs-4">
+              <img class="img-responsive" id="foto2" draggable="true" ondragstart="drag(event)" src="assets/img/finlandia.jpg" alt="">
+    </div>
+    <div class="col-sm-8 col-xs-8">
+              <img class="img-responsive" id="foto3" draggable="true" ondragstart="drag(event)" src="assets/img/Aurora-Boreal-destacada.jpg" alt="">
+    </div>
+</div>
+</section>
+
+
+<!-- script -->
+<script type="text/javascript" src="assets/app.js"></script>
+
+</script>
+
+  </body>
+</html>
